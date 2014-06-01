@@ -130,7 +130,18 @@ publish/
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+packages/
+
+#Allow NuGet.exe
+!NuGet.exe
+
+#Ignore generated nupkg files
+*.nupkg
+
+#Allow released nupkg files
+!VisualStudioGitIgnore.1.0.nupkg
+!VisualStudioGitIgnore.1.1.nupkg
+!VisualStudioGitIgnore.1.2.nupkg
 
 # Windows Azure Build Output
 csx
