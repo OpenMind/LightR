@@ -8,5 +8,8 @@ namespace LightR.Common
 {
     public interface IMessage
     {
+        Guid ApiKey { get; set; }
+        DateTime OccourredAt { get; set; }
+        DateTime ReceivedAt { get; set; }
     }
 }

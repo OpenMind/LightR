@@ -5,11 +5,13 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.Services", "LightR.Services\LightR.Services.csproj", "{2E75B6D0-8C24-401B-9F0B-C60623F31875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.Console", "..\LightR.Console\LightR.Console.csproj", "{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.Common", "LightR.Common\LightR.Common.csproj", "{E4157400-5940-461B-8CEF-108BA786600C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.Tests", "LightR.Tests\LightR.Tests.csproj", "{E96E5793-3985-453C-A97B-7D962126DDE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.Console", "LightR.Console\LightR.Console.csproj", "{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightR.TestFramework", "LightR.TestFramework\LightR.TestFramework.csproj", "{2145D6D9-384F-4DA4-8A67-335D787FAEE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +23,6 @@ Global
 		{2E75B6D0-8C24-401B-9F0B-C60623F31875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E75B6D0-8C24-401B-9F0B-C60623F31875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E75B6D0-8C24-401B-9F0B-C60623F31875}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E4157400-5940-461B-8CEF-108BA786600C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4157400-5940-461B-8CEF-108BA786600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4157400-5940-461B-8CEF-108BA786600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +31,14 @@ Global
 		{E96E5793-3985-453C-A97B-7D962126DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E96E5793-3985-453C-A97B-7D962126DDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E96E5793-3985-453C-A97B-7D962126DDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E6BA3B-C2B9-4993-9290-1619FF67DD00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2145D6D9-384F-4DA4-8A67-335D787FAEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2145D6D9-384F-4DA4-8A67-335D787FAEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2145D6D9-384F-4DA4-8A67-335D787FAEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2145D6D9-384F-4DA4-8A67-335D787FAEE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
